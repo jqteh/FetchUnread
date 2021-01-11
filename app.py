@@ -40,8 +40,7 @@ def main():
     if not results:
         print('No label found.')
     else:
-        print('New or Unread messages:')
-        print(results['messagesTotal'])
+        print('New or Unread messages: '+str(results['messagesTotal']))
 
 if __name__ == '__main__':
     main()
